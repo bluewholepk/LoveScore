@@ -68,6 +68,7 @@ input[type=text] {
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #000;
+  padding-bottom: 0px;
 }
 .main{
       /* background-color: #000; */
