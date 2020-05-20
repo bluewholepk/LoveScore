@@ -7,7 +7,7 @@ body {
     background-size: cover; */
     background-color: #fcb2bf;
     text-align: center;
-    font-size: 1.0rem;
+    font-size: 0.5rem;
 
 }
 h1{
@@ -94,6 +94,6 @@ font-family: sans-serif;
 padding: 50px 0 20px;
 }
 .footer-link{
-    font-size:0.5rem;
+    font-size:1.0rem;
   color:#f0134d;
 }
