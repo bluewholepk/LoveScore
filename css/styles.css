@@ -1,0 +1,98 @@
+body {
+
+    /* background-image: url('http://www.wallpapersclubs.com/wp-content/uploads/2020/01/computer-desktop-backgrounds-hd-wallpaper-4k-scaled.jpg'); */
+/* background-image: url('https://images.wallpaperscraft.com/image/blur_background_pink_orange_light_73376_1680x1050.jpg'); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color: #fcb2bf;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+h1{
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #fe346e;
+
+}
+h2{
+  font-size: 2.5rem;
+  color: #f0134d;
+  font-family: 'Great Vibes', cursive;
+  size:10px;
+}
+h3{
+  font-size: 2.0rem;
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  color: #000;
+  margin: 15px;
+}
+
+.brand1{
+  font-size: 2.5rem;
+  font-family: 'Piedra', cursive;
+}
+.first{
+  background: transparent;
+}
+.gify1 {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.navi-l{
+  text-align: left;
+}
+.result{
+  padding-left: 15px;
+  border-top-width: 10px;
+  border-bottom-width: 30px;
+  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.namegif{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+input[type=text] {
+  background: transparent;
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.main{
+      /* background-color: #000; */
+      padding-left: 15px;
+      border-top-width: 10px;
+      border-bottom-width: 30px;
+      padding-bottom: 100px;
+      padding-top: 100px;
+      padding-right: 15px;
+
+}
+
+.last{
+  /* background-color: #b2fcff; */
+  padding-left: 100px;
+  border-top-width: 10px;
+  border-bottom-width: 30px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-right: 15px;
+}
+.bottom-container {
+font-family: sans-serif;
+padding: 50px 0 20px;
+}
+.footer-link{
+  color:#f0134d;
+}
