@@ -94,6 +94,7 @@ input[type=text] {
 }
 .bottom-container {
 padding: 50px 0 20px;
+ font-family: 'Merriweather', serif;
 }
 .footer-link{
     font-size:0.9rem;
