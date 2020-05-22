@@ -1,11 +1,11 @@
 body {
 
-    background-image: url('http://www.wallpapersclubs.com/wp-content/uploads/2020/01/computer-desktop-backgrounds-hd-wallpaper-4k-scaled.jpg');
+    /* background-image: url('http://www.wallpapersclubs.com/wp-content/uploads/2020/01/computer-desktop-backgrounds-hd-wallpaper-4k-scaled.jpg');*/
 /* background-image: url('https://images.wallpaperscraft.com/image/blur_background_pink_orange_light_73376_1680x1050.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-color: #fcb2bf;*/
+    background-color: #fcb2bf;
     text-align: center;
     font-size: 0.9rem;
     font-family: 'Merriweather', serif;
