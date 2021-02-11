@@ -103,6 +103,10 @@ input[type=text] {
 padding: 50px 0 20px;
  font-family: 'Merriweather', serif;
 }
+.far {
+color:#f0134d;
+}
+
 .footer-link{
     font-size:0.9rem;
   color:#f0134d;
