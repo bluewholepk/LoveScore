@@ -21,6 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!-- Random -->
+  
     <script type="text/javascript">
       function loveckeck(){
         var yname = document.getElementById("yname").value;
@@ -69,7 +70,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <p><a class="nav-link navi-l" href="https://bluewholepk.github.io/my-profile/">My Site <span class="sr-only">(current)</span></a></p>
+                <p><a class="nav-link navi-l" target="_blank" href="https://bluewholepk.github.io/BlueWholePk/">BlueWholePk <span class="sr-only">(current)</span></a></p>
               </li>
             </ul>
           </div>
@@ -89,21 +90,34 @@
       </div>
   </section>
 <!-- fill up area -->
+ <section>
+  <div class="container-fluid">
+    <div class="main">
+      <p>Your Name  : <input type="text" id="yname" placeholder="Romeo"></p>
+      <p>Love's Name : <input type="text" id="tname" placeholder="Juliet" ></p>
+      <p><button type="button" class="btn btn-outline-dark buttton" onclick="loveckeck()"><i class="far fa-heart"></i> LoveScore</button></p>
+    </div>
+  </div>
+ </section>
   <section>
-    <div class="container-fluid">
-      <div class="main">
+    <div class="container-fluid container-fluid-footer">
+      <!-- <div class="main">
         <p>Your Name  : <input type="text" id="yname" placeholder="Romeo"></p>
         <p>Love's Name : <input type="text" id="tname" placeholder="Juliet" ></p>
         <p><button type="button" class="btn btn-outline-dark buttton" onclick="loveckeck()"><i class="far fa-heart"></i> LoveScore</button></p>
-      </div>
+      </div> -->
       <div class="bottom-container">
-        <br><br><br> <hr>
+         <hr>
           <p class="contact-message">Follow us:
-            <a class="footer-link" href="https://www.linkedin.com/in/prashant-david-b755a717b/"><i class="fab fa-linkedin"></i> </a>
-            <a class="footer-link" href="https://twitter.com/prashant_israel"><i class="fab fa-twitter"></i> </a>
-            <a class="footer-link" href="https://www.facebook.com/prashantkr00"><i class="fab fa-facebook"></i> </a>
-            <a class="footer-link" href="https://www.instagram.com/prashant__insta"><i class="fab fa-instagram"></i> </a><br></p>
-          <p class="copyright">© 2021 prashant-1601 <br>Update on : 11-Feb-2021 <br> <u>Version 1.06.03</u></p>
+            <a class="footer-link" href="https://www.linkedin.com/in/prashant-david-b755a717b/" target="_blank">&nbsp;<i class="fab fa-linkedin"></i>&nbsp;</a>
+            <a class="footer-link" href="https://twitter.com/BlueWholePk" target="_blank">&nbsp;<i class="fab fa-twitter" ></i>&nbsp;</a>
+            <a class="footer-link" href="https://www.facebook.com/prashantkr00" target="_blank">&nbsp;<i class="fab fa-facebook"></i>&nbsp;</a>
+            <a class="footer-link" href="https://www.instagram.com/bluewholepk" target="_blank">&nbsp;<i class="fab fa-instagram"></i>&nbsp;</a><br></p>
+          <p class="copyright">Copyright &copy; 2021 - <span id="year"></span> BlueWholePk. All Rights Reserved.</p>
+          <script>
+            // Automatically update the year
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
         </div>
     </div>
 
