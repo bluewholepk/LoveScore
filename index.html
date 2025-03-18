@@ -38,22 +38,22 @@
           }
         else {
           if (loveScore > 98) {
-            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Awesome!  " +  yname + " & " + tname + "." ;
+            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Awesome!  <br/>" +  yname + " & " + tname + "." ;
             }
           else if(loveScore < 97 && loveScore > 85){
-            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Congratulation!  " +  yname + " & " + tname + "." ;
+            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Congratulation!  <br/>" +  yname + " & " + tname + "." ;
             }
           else if (loveScore < 84 && loveScore > 80) {
-            document.getElementById("demo").innerHTML = loveScore + "%" + " <br/> Wow!  " +  yname + " & " + tname + "." ;
+            document.getElementById("demo").innerHTML = loveScore + "%" + " <br/> Wow!  <br/>" +  yname + " & " + tname + "." ;
             }
           else if (loveScore < 80 && loveScore > 75) {
-            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Nice!  " +  yname + " & " + tname + "." ;
+            document.getElementById("demo").innerHTML = loveScore + "%" + "<br/> Nice!  <br/>" +  yname + " & " + tname + "." ;
             }
           else if (loveScore < 75 && loveScore > 50) {
-            document.getElementById("demo").innerHTML = "70%" + "<br/> Good!  " +  yname + " & " + tname + "." ;
+            document.getElementById("demo").innerHTML = "70%" + "<br/> Good!  <br/>" +  yname + " & " + tname + "." ;
             }
           else{
-            document.getElementById("demo").innerHTML = "80%" + "<br/> Congratulation!  " +  yname + " & " + tname  + ".";
+            document.getElementById("demo").innerHTML = "80%" + "<br/> Congratulation!  <br/>" +  yname + " & " + tname  + ".";
             }
           }
         }
@@ -70,13 +70,14 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <p><a class="nav-link navi-l" target="_blank" href="https://bluewholepk.github.io/BlueWholePk/">BlueWholePk <span class="sr-only">(current)</span></a></p>
+                <p><a class="nav-link navi-l" target="_blank" href="https://bluewholepk.github.io/BlueWholePk/">BlueWholePk </a></p>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </section>
+
 <!-- result area -->
   <section>
 
@@ -89,25 +90,23 @@
         </div>
       </div>
   </section>
+
 <!-- fill up area -->
  <section>
   <div class="container-fluid">
-    <div class="main">
-      <p>Your Name  : <input type="text" id="yname" placeholder="Romeo"></p>
+    <div>
+      <p>Your Name  : <input type="text" id="yname" placeholder="Type like 'Romeo'"></p>
       <p>Love's Name : <input type="text" id="tname" placeholder="Juliet" ></p>
       <p><button type="button" class="btn btn-outline-dark buttton" onclick="loveckeck()"><i class="far fa-heart"></i> LoveScore</button></p>
+    <hr>
     </div>
   </div>
  </section>
+ <!-- Footer area  -->
   <section>
     <div class="container-fluid container-fluid-footer">
-      <!-- <div class="main">
-        <p>Your Name  : <input type="text" id="yname" placeholder="Romeo"></p>
-        <p>Love's Name : <input type="text" id="tname" placeholder="Juliet" ></p>
-        <p><button type="button" class="btn btn-outline-dark buttton" onclick="loveckeck()"><i class="far fa-heart"></i> LoveScore</button></p>
-      </div> -->
       <div class="bottom-container bottom-container1">
-         <hr>
+
           <p class="contact-message">Follow us:
             <a class="footer-link" href="https://www.linkedin.com/in/prashant-david-b755a717b/" target="_blank">&nbsp;<i class="fab fa-linkedin"></i>&nbsp;</a>
             <a class="footer-link" href="https://twitter.com/BlueWholePk" target="_blank">&nbsp;<i class="fab fa-twitter" ></i>&nbsp;</a>
@@ -118,6 +117,7 @@
             // Automatically update the year
             document.getElementById("year").textContent = new Date().getFullYear();
         </script>
+
         </div>
     </div>
 
